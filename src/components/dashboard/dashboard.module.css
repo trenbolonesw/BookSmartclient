@@ -1,0 +1,37 @@
+.dashboard{
+display: flex;
+flex-direction: column;
+height: 100%;
+background-position: center;
+background-color: black;
+border-style: solid;
+border-width: 0.5rem;
+border-color: black;
+}
+
+
+.booksTable{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 3rem;
+}
+
+.header{
+    background-color: red;
+}
+.statsboard{
+    margin-top: 10%;
+    color:blue;
+    padding: 20%;
+    width: 20%;
+    border: 2px solid #00008B;
+    box-shadow: 0 0 10px blue;
+    border-radius: 7px;
+}
+
+.dashboardmain{
+    display: grid;
+    grid-template-columns:
+    50%
+    1fr;
+}

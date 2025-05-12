@@ -1,0 +1,79 @@
+.Form{
+    display:flex;
+    margin-left: 45%;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2%;
+}
+.textform{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -10%;
+    margin-right:200%;
+   
+    row-gap: 1rem;
+    
+}
+.main{
+   height: 100%;
+    row-gap: 5%;
+    row-gap: 2%;
+    background-color: lightblue; 
+}
+.book{
+    
+    border-style: solid;
+    border-radius: 5px;
+}
+.title{
+    margin-left: 24%;
+    border: none;
+    font-size: small;
+    width: 17rem;
+    height: 2rem;
+    border-style: solid;
+    border-radius: 3px;
+    background-color: rgb(191, 207, 221);
+}
+.input{
+    margin-left: 6%;
+    border: none;
+    font-size: small;
+    width: 14rem;
+    height: 2rem;
+    border-style: solid;
+    border-radius: 3px;
+    background-color: rgb(191, 207, 221);
+}
+.textfield{
+    margin-left: 38%;
+    resize: none;
+    overflow: hidden;
+    width: 20rem;
+    height: 15rem;
+    border: none;
+    font-size: medium;
+    border-style: solid;
+    border-radius: 3px;
+    background-color: rgb(191, 207, 221);
+}
+
+.updatebutton{
+    margin-top: 20%;
+    border: none;
+    background-color: rgb(110, 110, 207);
+    width:30%;
+    height: 1.2rem;
+   
+}
+.closebutton{
+    margin-top: 5%;
+    border: none;
+    background-color: rgb(110, 110, 207);
+    width:30%;
+    height: 1.3rem;
+    
+  }
+

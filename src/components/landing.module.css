@@ -1,0 +1,133 @@
+.header{
+    background-color: black;
+    width: 80%;
+    margin-left: auto;
+     margin-right: auto;
+     border-radius:8px;
+}
+
+.h{
+  transition: all 0.3s;
+  transform: scale(1);
+}
+.h:hover{
+    transform: scale(1.2); 
+}
+.h1link{
+    
+     transition: all ease-in-out 0.3s;
+    
+     
+
+    color: black;
+    font-family:sans-serif;
+    font-weight: 800;
+   text-decoration: none;
+   font-size: larger;
+}
+
+.h1link:hover{
+    
+    color: rgba(20, 20, 211, 0.849)
+    
+}
+.background{
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../images/photo-1481627834876-b7833e8f5570.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    justify-content: center;
+   
+}
+.main{
+     animation-name: landingmotion;
+     animation-duration: 3s;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    color: white;
+    font-size: clamp(1.5rem, 2vw, 2.0rem);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+    text-align: center;
+}
+.main2{
+    animation-name: landingmotion;
+    animation-duration: 3s;
+    display: grid;
+     max-width: 570px;
+    height: 80%;
+     width: 90%;
+     margin: 1.5rem;
+     margin-left: auto;
+     margin-right: auto;
+    font-size: 1.1rem;
+    background-color: rgba(240, 248, 255, 0.8); 
+    border-radius: 8px;
+    border-style: solid;
+    border-color: black;
+}
+
+@keyframes landingmotion{
+0% {opacity: 0; transform: translateY(-100%);}
+100% {opacity: 100%; transform: translateY(0);}
+}
+
+.h01{
+    transition: all 0.3s;
+    transform: scale(1);
+    animation-duration: 3s;
+    animation-name: key1;
+}
+
+.h02{
+    animation-duration: 3s;
+    animation-name: key2;
+    transition: all 0.3s;
+    transform: scale(1);
+}
+
+.h02:hover{
+    transform: scale(1.1);
+}
+
+.h01:hover{
+    transform: scale(1.1);
+}
+
+.h03{
+    animation-name: key1;
+    animation-duration: 3s;
+}
+
+@keyframes key1{
+    from {
+        translate: 150vw 0;
+        scale: 200% 1;
+      }
+    
+      to {
+        translate: 0 0;
+        scale: 100% 1;
+      }
+}
+
+@keyframes key2{
+    from {
+        translate: -150vw 0;
+        scale: 200% 1;
+      }
+    
+      to {
+        translate: 0 0;
+        scale: 100% 1;
+      }
+}
+

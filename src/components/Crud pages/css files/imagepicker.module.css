@@ -1,0 +1,28 @@
+.main{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.input{
+    display: none;
+ 
+}
+
+.image{
+    
+    width: 40%;
+    height: 20%;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 2%;
+}
+
+.selectbutton{
+    border:none;
+    background-color: rgb(52, 150, 180);
+   padding: 1.2%;
+   width: 22%;
+    border-radius: 5%;
+    margin-top: 10%;
+}

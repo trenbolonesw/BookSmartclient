@@ -1,0 +1,68 @@
+.books{
+    margin-inline: auto;
+    border-style: none;
+    
+    border-radius: 10px;
+}
+.main{
+    display:flex;
+    flex-direction:column;
+    height: 100%;
+    overflow: hidden;
+    background-color: lightblue;
+}
+
+.details{
+    color:white;
+    margin-inline: auto;
+    background-color:rgb(98, 151, 168);
+    margin-top: 1rem;
+    width:25rem;
+     height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 2%;
+}
+
+.editbutton{
+    
+    color:white;
+    background-color: rgb(104, 104, 190);
+    border: none;
+    border-radius: 3px;
+    margin-top:2rem;
+    margin-left: 85%;
+    padding: 0.5% ;
+    width: 6%;
+}
+
+.description{
+
+    display:inline-block;
+    min-width: 5%;
+
+    
+}
+
+.header{
+    font-weight: 700;
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.dialog{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: lightblue;
+  
+    position: absolute;
+    width: 60%;
+    
+    border-width: 0.5rem;
+}
+
